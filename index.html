@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solestic SMP</title>
+  <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f3b3f;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to right, #0f3b3f, #152c43);
+    }
+    header h1 {
+      font-family: 'Minecraft', sans-serif;
+      font-size: 4rem;
+      color: #00e0ff;
+      text-shadow: 2px 2px #000;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Minecraft', sans-serif;
+      font-size: 2.5rem;
+      color: #ffcc00;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: rgba(26, 26, 26, 0.9);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+    .card img {
+      width: 64px;
+      margin-bottom: 15px;
+    }
+    .cta {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .cta a {
+      background: linear-gradient(45deg, #ff7b00, #ffcc00);
+      padding: 15px 30px;
+      border-radius: 8px;
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1.2rem;
+      box-shadow: 0 0 15px #ffcc00;
+    }
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    footer a {
+      color: #00e0ff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "◆ ";
+      color: #00e0ff;
+    }
+
+    /* Social icons */
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+    .social-links a {
+      font-size: 40px;
+      transition: transform 0.2s, color 0.3s;
+    }
+    .social-links a:hover {
+      transform: scale(1.2);
+    }
+    .instagram { color: #E4405F; }
+    .discord { color: #5865F2; }
+    .youtube { color: #FF0000; }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>SOLESTIC SMP</h1>
+    <p>Mine. Grind. Shine.</p>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About Solestic SMP</h2>
+    <p>
+      Solestic SMP is a community-driven Minecraft server where survival meets creativity, and adventure never ends. 
+      Whether you’re here to build massive kingdoms, team up with friends, or test your skills in battles, Solestic has a place for you.
+    </p>
+    <p>It’s not just about surviving — it’s about thriving, exploring, and creating unforgettable stories.</p>
+  </section>
+
+  <!-- FEATURES -->
+  <section>
+    <h2>Features</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/globe.png" alt="Survival Multiplayer">
+        <h3>Survival Multiplayer</h3>
+        <p>Pure Minecraft survival with friends.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/sword.png" alt="Lifesteal Mode">
+        <h3>Lifesteal Mode</h3>
+        <p>For players who love risk and challenge.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/castle.png" alt="Community Projects">
+        <h3>Community Projects</h3>
+        <p>Towns, bases, and mega builds.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/confetti.png" alt="Events">
+        <h3>Events & Competitions</h3>
+        <p>Wars, mini-games, and server-wide fun.</p>
+      </div>
+      <div class="card">
+        <img src="https://img.icons8.com/color/96/group.png" alt="Active Community">
+        <h3>Active Community</h3>
+        <p>A welcoming SMP where players vibe together.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONNECT -->
+  <section class="connect">
+    <h2>Connect With Us</h2>
+    <div class="social-links">
+      <a href="https://instagram.com/solesticsmp" target="_blank" class="instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://discord.gg/5D7WQFT4Bh" target="_blank" class="discord">
+        <i class="fab fa-discord"></i>
+      </a>
+      <a href="https://youtube.com/@solestiicsmp?si=gmKBIkIg_RSS6Seb" target="_blank" class="youtube">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- HOW TO JOIN -->
+  <section>
+    <h2>How to Join</h2>
+    <ol>
+      <li>Join our Discord server.</li>
+      <li>Get the IP + whitelist.</li>
+      <li>Start your journey in Solestic SMP.</li>
+    </ol>
+  </section>
+
+  <!-- WHY SOLESTIC -->
+  <section>
+    <h2>Why Solestic?</h2>
+    <p>Because here, it’s not just about playing Minecraft. It’s about:</p>
+    <ul>
+      <li>Building stories that last.</li>
+      <li>Forming alliances (or rivalries 👀).</li>
+      <li>Experiencing survival, chaos, and fun all in one world.</li>
+    </ul>
+  </section>
+
+  <!-- JOIN COMMUNITY -->
+  <section>
+    <h2>Join the Community</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Solestic SMP is more than just a server — it’s a family.<br>
+      💬 Chat, laugh, and share your adventures.<br>
+      🛠️ Build together or compete in challenges.<br>
+      🎮 Make new friends who share the same love for Minecraft.
+    </p>
+    <div class="cta">
+      <a href="https://discord.gg/5D7WQFT4Bh">Join Discord</a>
+    </div>
+    <p style="text-align:center;"><strong>👉 Your journey starts the moment you join us.</strong></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Solestic SMP. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
